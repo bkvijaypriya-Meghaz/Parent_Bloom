@@ -22,7 +22,7 @@ export async function DeleteInfo(url, data) {
       method: 'DELETE',
       headers: {'Content-type': 'application/json'},
       body: JSON.stringify({deleteInfo: data})
-    });a
+    });
     return await response.json();
 }
 export async function getInfo(url) {
