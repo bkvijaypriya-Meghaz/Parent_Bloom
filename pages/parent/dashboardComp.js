@@ -6,7 +6,7 @@ import useEffect from 'react'
 import StudentGradeInfo from './studentGradeInfo';
 import UpcomingAssignments from './dashboardUpcomingAssignment';
 import UpcomingLessons from './dashboardUpcomingLessons';
-import StudentActivity from './studentActivity'
+import StudentActivity from './StudentActivity'
 import Announcement from './dashboardAnnouncement';
 export default function dashboard(props) {
 
