@@ -1,4 +1,4 @@
-import React, {Component, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import {getInfo} from '../../services/GenericServices';
 import {PARENT_UPCOMING_ASSIGNMENT} from '../../components/ConstFile';
 
