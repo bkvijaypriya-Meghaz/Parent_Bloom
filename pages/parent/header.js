@@ -71,17 +71,17 @@ export default function Header() {
                                     </div>
                                     <ul className="pro-body">
                                         <li>
-                                            <a href="#!" className="dropdown-item disablecursoronly">
+                                            <a href="settings" className="dropdown-item disablecursoronly">
                                                 <i><FiSettings /></i> Settings</a> 
                                                 <i className="settinglockicon"><FiLock /></i>
                                         </li>
                                         <li>
-                                            <a href="#!" className="dropdown-item disablecursoronly">
+                                            <a href="profile" className="dropdown-item disablecursoronly">
                                                 <i><FiUser/></i> Profile</a>
                                                 <i className="settinglockicon"><FiLock /></i>
                                         </li>
                                         <li>
-                                            <a href="#!" className="dropdown-item disablecursoronly">
+                                            <a href="messages" className="dropdown-item disablecursoronly">
                                                 <i className="feather icon-mail"></i> My Messages</a>
                                         </li>
                                     </ul>
