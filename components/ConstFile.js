@@ -2,3 +2,4 @@ export const PARENT_UPCOMING_ASSIGNMENT = "https://bloomlms.azure-api.net/parent
 export const PARENT_UPCOMING_LESSONS = "https://bloomlms.azure-api.net/parent/v1/300/500/upcoming/lessons"
 export const PARENT_DASHBOARD_HEADER = "https://bloomlms.azure-api.net/parent/v1/300/500/upcoming/lessons"
 export const PARENT_ANNOUNCEMENT="https://bloomlms.azure-api.net/parent/v1/234242/2342434/announcements"
+export const STUDENT_ACTIVITY ="https://bloomlms.azure-api.net/parent/v1/2342342/3454454/activities";
