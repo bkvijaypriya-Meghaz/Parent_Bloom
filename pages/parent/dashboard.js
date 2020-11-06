@@ -7,7 +7,7 @@ import StudentGradeInfo from './studentGradeInfo';
 import UpcomingAssignments from './dashboardUpcomingAssignment';
 import UpcomingLessons from './dashboardUpcomingLessons';
 import StudentActivity from './studentActivity'
-import Announcement from './dashboardAnnouncement';
+import Announcement from './announcements';
 export default function dashboard(props) {
 
     // useEffect(() => {
