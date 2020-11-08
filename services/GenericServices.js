@@ -11,8 +11,11 @@ export async function saveInfo(url, data) {
 export async function updateInfo(url, data) {
     const response = await fetch(`${url}`, {
       method: 'PUT',
-      headers: {'Content-type': 'application/json'},
-      body: JSON.stringify({parentUpdateInfo: data})
+      headers: {
+          'Content-type': 'application/json',
+          'Ocp-Apim-Subscription-Key': 'a07e3fa63cca49d1bb4a6a4eb29fc527'
+        },
+      body: JSON.stringify(data)
     });
     return await response.json();
 }

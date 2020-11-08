@@ -4,3 +4,5 @@ export const PARENT_DASHBOARD_HEADER = "https://bloomlms.azure-api.net/parent/v1
 export const STUDENT_ACTIVITY ="https://bloomlms.azure-api.net/parent/v1/2342342/3454454/activities";
 export const GRADE_INFORMATION = "https://bloomlms.azure-api.net/parent/v1/500/234342/grades/latest"
 export const PARENT_ANNOUNCEMENT="https://bloomlms.azure-api.net/parent/v1/234242/2342434/announcements"
+export const ANNOUNCEMENT_CLEAR = "https://bloomlms.azure-api.net/parent/v1/1/announcement/clear"
+export const ACTIVITY_CLEAR = "https://bloomlms.azure-api.net/parent/v1/1/activity/clear"
