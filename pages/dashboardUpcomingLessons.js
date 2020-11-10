@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react';
-import {getInfo} from '../../services/GenericServices';
-import {PARENT_UPCOMING_LESSONS} from '../../components/ConstFile';
+import {getInfo} from '../services/GenericServices';
+import {PARENT_UPCOMING_LESSONS} from '../components/ConstFile';
 
 function UpcomingLessons(){
     const [lessonList, setLessonList] = useState([]);

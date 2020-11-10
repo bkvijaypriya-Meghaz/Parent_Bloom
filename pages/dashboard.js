@@ -1,4 +1,4 @@
-import ParentLayout from '../../layout/ParentLayout';
+import ParentLayout from '../layout/ParentLayout';
 import DashboardPieChart from './dashboardPieChart';
 import DashboardCandleStick from './dashboardCandleStick';
 import DashboardHeader from './dashboardHeader';
@@ -6,7 +6,7 @@ import useEffect from 'react'
 import StudentGradeInfo from './studentGradeInfo';
 import UpcomingAssignments from './dashboardUpcomingAssignment';
 import UpcomingLessons from './dashboardUpcomingLessons';
-import StudentActivity from './StudentActivity'
+import StudentActivity from './studentActivity'
 import Announcement from './dashboardAnnouncement';
 export default function dashboard(props) {
 

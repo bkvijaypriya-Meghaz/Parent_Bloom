@@ -28,7 +28,7 @@ export default function Header() {
     const chatboxClose = () => {
         document.getElementById("chatboxDisplay").classList.remove("open");
     }
-    //This parentid can be come through session or from api call
+    //Todo : This parentid can be come through session or from api call
     const parentid = '12345'
     return (
         <>
@@ -38,7 +38,7 @@ export default function Header() {
                 <div className="m-header">
                     <a className="mobile-menu" id="mobile-collapse1" href="#!"><span></span></a>
                     <a href="dashboard" className="b-brand">
-                        <img src="../../assets/images/bloom-logo.png" className="bloomlogo" />
+                        <img src="../assets/images/bloom-logo.png" className="bloomlogo" />
                         <span className="b-title bloomtitle">Bloom</span>
                     </a>
                 </div>
@@ -48,7 +48,7 @@ export default function Header() {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav mr-auto">
                         <a href="dashboard" className="b-brand">
-                            <img src="../../assets/images/bloom-logo.png" className="bloomlogo" />
+                            <img src="../assets/images/bloom-logo.png" className="bloomlogo" />
                             <span className="b-title bloomtitle">Bloom</span>
                         </a>
 
@@ -64,7 +64,7 @@ export default function Header() {
                                 </a>
                                 <div className="dropdown-menu dropdown-menu-right profile-notification " id="notiDrop-2">
                                     <div className="pro-head">
-                                        <img src="../../assets/images/user/avatar-1.jpg" className="img-radius" alt="User-Profile-Image" />
+                                        <img src="../assets/images/user/avatar-1.jpg" className="img-radius" alt="User-Profile-Image" />
                                         <span>Ann Doe</span>
                                         <a href="sign-in" className="dud-logout" title="Logout">
                                             <i><FiLogOut /></i>
@@ -72,22 +72,22 @@ export default function Header() {
                                     </div>
                                     <ul className="pro-body">
                                         <li>
-                                            <Link href={`/parent/${parentid}/settings`}>
-                                                <a href="settings" className="dropdown-item disablecursoronly">
+                                            <Link href={`../${parentid}/settings`}>
+                                                <a href="settings" className="dropdown-item ">
                                                     <i><FiSettings /></i> Settings</a> 
                                                 {/* <i className="settinglockicon"><FiLock /></i> */}
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href={`/parent/${parentid}/profile`}>
+                                            <Link href={`../${parentid}/profile`}>
                                                  <a href="profile" className="dropdown-item">
                                                     <i><FiUser/></i> Profile
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href={`/parent/${parentid}/messages`}>
-                                                <a href="messages" className="dropdown-item disablecursoronly">
+                                            <Link href={`../${parentid}/messages`}>
+                                                <a href="messages" className="dropdown-item ">
                                                     <i className="feather icon-mail"></i> My Messages
                                                 </a>
                                             </Link>
@@ -111,7 +111,7 @@ export default function Header() {
                     <div className="main-chat-cont scroll-div">
                         <div className="main-friend-chat">
                             <div className="media chat-messages">
-                                <a className="media-left photo-table" href="#!"><img className="media-object img-radius img-radius m-t-5" src="../../assets/images/user/avatar-1.jpg" alt="Generic placeholder image" /></a>
+                                <a className="media-left photo-table" href="#!"><img className="media-object img-radius img-radius m-t-5" src="../assets/images/user/avatar-1.jpg" alt="Generic placeholder image" /></a>
                                 <div className="media-body chat-menu-content">
                                     <div className="">
                                         <p className="chat-cont">Hi, Ms. Doe I had a question about the Chemistry Assignment.</p>
@@ -128,7 +128,7 @@ export default function Header() {
                                 </div>
                             </div>
                             <div className="media chat-messages">
-                                <a className="media-left photo-table" href="#!"><img className="media-object img-radius img-radius m-t-5" src="../../assets/images/user/avatar-1.jpg" alt="Generic placeholder image" /></a>
+                                <a className="media-left photo-table" href="#!"><img className="media-object img-radius img-radius m-t-5" src="../assets/images/user/avatar-1.jpg" alt="Generic placeholder image" /></a>
                                 <div className="media-body chat-menu-content">
                                     <div className="">
                                         <p className="chat-cont">can you help me?</p>

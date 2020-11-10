@@ -1,5 +1,5 @@
-import Header from '../pages/parent/header'
-import Footer from '../pages/parent/footer'
+import Header from '../pages/header'
+import Footer from '../pages/footer'
 
 const ParentLayout = ({children}) => {
     

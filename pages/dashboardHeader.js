@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { useState, useEffect } from 'react';
-import {getInfo} from '../../services/GenericServices';
-import {PARENT_DASHBOARD_HEADER} from '../../components/ConstFile';
+import {getInfo} from '../services/GenericServices';
+import {PARENT_DASHBOARD_HEADER} from '../components/ConstFile';
 
 function DashboardHeader() {
 

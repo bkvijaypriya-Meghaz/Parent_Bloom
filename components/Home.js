@@ -11,7 +11,7 @@ function Home() {
                 <div className="card" style={{background: "transparent", boxShadow: "none"}}>
                     <div className="row no-gutters justify-content-center">
 						<div className="col-md-4 col-lg-6 ">
-							<a href="parent/sign-in">
+							<a href="../parent">
 							<div className="theme-bg align-items-center justify-content-center loginouterdiv">
 								<div className="loginusericon">
 									<img src="assets/images/parent/parenticon.jpg" alt="lock images" className="img-fluid"/>

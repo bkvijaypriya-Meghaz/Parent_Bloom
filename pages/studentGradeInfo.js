@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { useState, useEffect } from 'react';
-import {getInfo} from '../../services/GenericServices';
-import {GRADE_INFORMATION} from '../../components/ConstFile';
+import {getInfo} from '../services/GenericServices';
+import {GRADE_INFORMATION} from '../components/ConstFile';
 
 function StudentGradeInfo(){
     const [studentGradeInfo, setStudentGradeInfo] = useState(0);
